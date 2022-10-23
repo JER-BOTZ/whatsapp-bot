@@ -1,5 +1,6 @@
 const { create, Client } = require('@open-wa/wa-automate')
 const welcome = require('./lib/welcome')
+const antilink = require('./lib/antilink')
 const msgHandler = require('./msgHndlr')
 const options = require('./options')
 
